@@ -1215,7 +1215,7 @@ static void progress_cb_c(void *user, uint64_t done, uint64_t total, const char 
     NSMutableAttributedString *c = [[NSMutableAttributedString alloc]
         initWithString:@"A macOS port of the PicoStation Multi House V3 Manager.\n\nOriginal Manager by ALBERONISSE (Multi House).\n" attributes:base];
     NSString *links[][2] = { { @"ALBERONISSE on multihouse.net", @"https://www.multihouse.net" },
-                             { @"Source code on GitHub", @"https://github.com/orenatobr/PicoStation-MultiHouse-macOS" } };
+                             { @"Source code on GitHub", @"https://github.com/orenatobr/PicoStation-orenatobr-macOS" } };
     for (int i = 0; i < 2; i++) {
         NSMutableDictionary *a = [base mutableCopy];
         a[NSLinkAttributeName] = [NSURL URLWithString:links[i][1]];
