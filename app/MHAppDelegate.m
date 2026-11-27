@@ -173,7 +173,7 @@ static NSString *fkey(unichar c) { return [NSString stringWithCharacters:&c leng
 
 - (void)showAbout:(id)s { [_main showAbout]; }
 - (void)openRepo:(id)s {
-    [NSWorkspace.sharedWorkspace openURL:[NSURL URLWithString:@"https://github.com/orenatobr/PicoStation-MultiHouse-macOS"]];
+    [NSWorkspace.sharedWorkspace openURL:[NSURL URLWithString:@"https://github.com/orenatobr/PicoStation-orenatobr-macOS"]];
 }
 
 - (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)a {

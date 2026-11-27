@@ -2,7 +2,7 @@
 # Installs the latest PicoStation Multi House V3 release into /Applications without the
 # quarantine flag, so Gatekeeper does not reject the ad-hoc signed app.
 set -euo pipefail
-url="https://github.com/orenatobr/PicoStation-MultiHouse-macOS/releases/latest/download/PicoStation-Multi-House-V3-macOS-arm64.zip"
+url="https://github.com/orenatobr/PicoStation-orenatobr-macOS/releases/latest/download/PicoStation-Multi-House-V3-macOS-arm64.zip"
 name="PicoStation Multi House V3.app"
 tmp=$(mktemp -d)
 trap 'rm -rf "$tmp"' EXIT
